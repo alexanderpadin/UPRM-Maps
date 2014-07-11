@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UPRM Map</string>
+    <string name="action_settings">Settings</string>
+    
+     <string-array name="building_array">
+         	<item>Select</item>
+        	<item>Administracion de Empresas</item>
+            <item>Asistencia Economica</item>
+            <item>Banda y Orquesta</item>
+            <item>Biblioteca General</item>
+            <item>Cancha de Tennis</item>
+            <item>Carlos E. Chardon</item>
+            <item>Centro de Estudiantes</item>
+            <item>Centro de Investigacion</item>            
+            <item>Ciencias Marinas</item>
+            <item>Coliseo Rafael A. Mangual</item>
+            <item>Decanato de Estudiantes</item>
+            <item>Departamento de Policias</item>
+            <item>Edificio de Biologia</item>
+            <item>Edificio de Quimica</item>
+            <item>Enfermeria</item>
+            <item>Finca Alzamora</item>
+            <item>Fisica</item>
+            <item>Geologia</item>
+            <item>Gimnasio Angel F. Espada</item>
+            <item>Hotel Colegial</item>
+            <item>Ingenieria Civil</item>
+            <item>Ingenieria Industrial</item>
+            <item>Ingenieria Mecanica</item>
+            <item>Ingenieria Quimica</item>
+            <item>Jesus T. Pineiro</item>
+            <item>Luis A. Stefani</item>
+            <item>Luis C. Monzon</item>
+            <item>Mayor Rafael Sanchez ROTC</item>
+            <item>Pagaduria</item>
+            <item>Piscina Alumni</item>
+            <item>Pista Nueva</item>
+            <item>Rectoria</item>
+            <item>Registraduria</item>
+            <item>Sanchez Hidalgo</item>            
+            <item>Servicios Medicos</item>
+    </string-array>
+
+</resources>

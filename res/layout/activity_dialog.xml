@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.44"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Building: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    <Spinner
+        android:id="@+id/buildings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="building"
+        android:paddingRight="@dimen/activity_horizontal_margin" />
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.44"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    or  Room: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="eg. CH102" >
+        <requestFocus />
+    </EditText>
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/makeRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Route  "
+        android:layout_gravity="right" />
+    
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.44"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="     Cancel     " />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Submit     " />
+    </LinearLayout>
+</LinearLayout>

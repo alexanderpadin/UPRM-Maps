@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+     <item
+        android:id="@+id/type"
+        android:title="Map Type"
+        android:icon="@drawable/type"
+        android:showAsAction="ifRoom"/>
+    <item 
+        android:id="@+id/location"
+        android:icon="@drawable/gps"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/about"
+        android:title="About"/>
+
+</menu>
